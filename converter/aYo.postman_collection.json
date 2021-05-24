@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "70571ac7-3514-43f1-884e-e5396aedad25",
+		"name": "aYo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:6600/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\":\"c2f\",\r\n    \"value\": 37\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:6600/converter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6600",
+					"path": [
+						"converter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
